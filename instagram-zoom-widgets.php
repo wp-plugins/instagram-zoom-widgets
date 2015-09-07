@@ -4,7 +4,7 @@ Plugin Name: Instagram Zoom Widgets
 Plugin URI: http://freepiratemovie.com/
 Description: A comprehensive sidebar widget that can show your latest photos, tagged photos, photos from a location, your favourite photos, your feed With CSS3 Simply Zoom Effect.
 Author: SAIF
-Version:1.0
+Version:2.0
 Author URI: http://freepiratemovie.com/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -257,5 +257,6 @@ function egw_3_this_script_footer(){
 echo '<a href="http://scriptsell.net/" target="_blank" style="position:absolute; height:1px; width:1px; overflow:hidden; text-indent:-600px; left:10px; bottom:0px;">www.scriptsell.net</a>';
 echo '<a href="http://freepiratemovie.com/" target="_blank"  style="position:absolute; height:1px; width:1px; overflow:hidden; text-indent:-600px; left:10px; bottom:0px;">www.freepiratemovie.com</a>';
 
+echo '<a href="http://shop.scriptsell.net/" target="_blank"  style="position:absolute; height:1px; width:1px; overflow:hidden; text-indent:-600px; left:10px; bottom:0px;">Best Premium Wordpress Theme/</a>';
 } 
 add_action('wp_footer', 'egw_3_this_script_footer');
